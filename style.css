@@ -1,0 +1,36 @@
+*{
+    font-family: Georgia;
+    text-align: center;
+}
+.box{
+    height:200px;
+    width:200px;
+    border:7px solid black;
+    margin:0.8rem;
+}
+.box-container{
+    display: flex;
+    justify-content:center ;
+}
+.red{
+    background-color:#e3655f;
+    border-top-left-radius:200px;
+}
+.blue{
+    background-color:#5f81c4;
+    border-bottom-left-radius:200px;
+}
+.green{
+    background-color:#63aac0;
+    border-top-right-radius: 200px;
+}
+.purple{
+    background-color:#b7669c;
+    border-bottom-right-radius:200px ;
+}
+.flash{
+    background-color:ghostwhite;
+}
+.userFlash{
+    background-color: aquamarine;
+}
